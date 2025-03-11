@@ -1,9 +1,26 @@
 {
   "name": "jcubic",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "personal package of @jcubic",
+  "type": "module",
   "main": "index.js",
+  "bin": {
+    "jcubic": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcubic/jcubic-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcubic/jcubic-npm/issues"
+  },
+  "homepage": "https://github.com/jcubic/jcubic-npm",
   "keywords": [],
   "author": "Jakub T. Jankiewicz <jcubic@onet.pl> (https://jcubic.pl/me/)",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "ansi-escapes": "^7.0.0",
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.0"
+  }
 }
