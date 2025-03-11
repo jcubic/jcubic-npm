@@ -1,0 +1,9 @@
+{
+  "name": "jcubic",
+  "version": "0.0.1",
+  "description": "personal package of @jcubic",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Jakub T. Jankiewicz <jcubic@onet.pl> (https://jcubic.pl/me/)",
+  "license": "ISC"
+}
